@@ -1,0 +1,36 @@
+//ext {
+//
+//    android = [compileSdkVersion: 25,
+//               buildToolsVersion: "25",
+//               applicationId    : "ldroid.buildsample",
+//               minSdkVersion    : 18,
+//               targetSdkVersion : 25,
+//               versionCode      : 1,
+//               versionName      : "1.0"
+//    ]
+//}
+//  compileSdkVersion rootProject.ext.android.compileSdkVersion
+//
+//ext {
+//    support_library_version = '25.0.0'
+//    buildTools = '25.0.0'
+//    compileSdk = 25
+//    targetSdk = 25
+//}
+//    compileSdkVersion compileSdk
+
+
+
+ext {
+
+    android = [compileSdkVersion: 25,
+               buildToolsVersion: "25",
+               applicationId    : "ldroid.buildsample",
+               minSdkVersion    : 18,
+               targetSdkVersion : 25,
+               versionCode      : 1,
+               versionName      : "1.0"]
+
+    support_library_version = '25.0.0'
+}
+
