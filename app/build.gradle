@@ -94,6 +94,9 @@ android {
 
         debug {
             signingConfig signingConfigs.release
+            debug {
+                resValue("string", "CUSTOM_STRING", "ABC")
+            }
         }
     }
 
