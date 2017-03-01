@@ -125,11 +125,21 @@ android {
             // to pre-dex each module and produce an APK that can be tested on
             // Android Lollipop without time consuming dex merging processes.
             minSdkVersion 21
+
         }
         prod {
             // The actual minSdkVersion for the application.
             minSdkVersion 11
+
         }
+
+        playStore {}
+        miui {}
+        wandoujia {}
+
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
     }
 
 
